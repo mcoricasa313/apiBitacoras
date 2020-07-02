@@ -1,0 +1,13 @@
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\Usmp.Fia.Data.dll.config
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\Usmp.Fia.Data.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\Usmp.Fia.Data.pdb
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\EntityFramework.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\log4net.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\EntityFramework.xml
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\bin\Debug\log4net.xml
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\obj\Debug\Usmp.Fia.Data.csproj.CoreCompileInputs.cache
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\obj\Debug\Usmp.Fia.Data.csproj.CopyComplete
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\obj\Debug\Usmp.Fia.Data.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Data\obj\Debug\Usmp.Fia.Data.pdb

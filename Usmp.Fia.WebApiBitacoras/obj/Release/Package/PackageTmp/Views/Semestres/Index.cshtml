@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Usmp.Fia.Dominio.Modelos.SemestresModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.semestre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_crea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_modif)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_crea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_modif)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.semestre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_crea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_modif)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_crea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_modif)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idsemestre }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idsemestre }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idsemestre })
+        </td>
+    </tr>
+}
+
+</table>

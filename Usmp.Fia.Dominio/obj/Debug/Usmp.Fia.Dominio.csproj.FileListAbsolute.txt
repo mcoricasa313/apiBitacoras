@@ -1,0 +1,14 @@
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\Usmp.Fia.Dominio.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\Usmp.Fia.Dominio.pdb
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\Usmp.Fia.Data.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\log4net.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\EntityFramework.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\Usmp.Fia.Data.pdb
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\Usmp.Fia.Data.dll.config
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\log4net.xml
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\bin\Debug\EntityFramework.xml
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\obj\Debug\Usmp.Fia.Dominio.csprojAssemblyReference.cache
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\obj\Debug\Usmp.Fia.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\obj\Debug\Usmp.Fia.Dominio.csproj.CopyComplete
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\obj\Debug\Usmp.Fia.Dominio.dll
+C:\Users\MICHAEL\Documents\GitHub\webApiBitacoras\Usmp.Fia.Dominio\obj\Debug\Usmp.Fia.Dominio.pdb

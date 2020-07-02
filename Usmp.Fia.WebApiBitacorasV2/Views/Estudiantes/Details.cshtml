@@ -1,0 +1,83 @@
+﻿@model Usmp.Fia.Dominio.Modelos.EstudiantesModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EstudiantesModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombrecompleto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombrecompleto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_crea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_crea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_modif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_modif)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_crea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_crea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_modif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_modif)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.clave)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.clave)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idestudiante }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

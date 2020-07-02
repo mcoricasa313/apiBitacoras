@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Usmp.Fia.Dominio.Modelos.ActividadesPorGrupoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.actividades)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idgrupo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_crea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_modif)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_crea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_modif)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.actividades)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.idgrupo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_crea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_modif)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_crea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_modif)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idactividad }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idactividad }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idactividad })
+        </td>
+    </tr>
+}
+
+</table>
