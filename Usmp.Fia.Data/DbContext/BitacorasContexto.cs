@@ -11,11 +11,12 @@ namespace Usmp.Fia.Data.DbContext
 {
     public class BitacorasContexto: System.Data.Entity.DbContext
     {
-        public BitacorasContexto()
-            : base("DB_A630DE_bitacorasEntities")
+        public BitacorasContexto(): base("DB_A630DE_bitacorasEntities")
         {
 
-        }       
+        }
+     
+
 
         public DbSet<Grupo> Grupos { get; set; }
         public DbSet<Bitacora> Bitacoras { get; set; }

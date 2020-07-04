@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usmp.Fia.Dominio", "..\Usmp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usmp.Fia.WebApiBitacorasV2", "..\Usmp.Fia.WebApiBitacorasV2\Usmp.Fia.WebApiBitacorasV2.csproj", "{024F2D92-4946-439A-99DD-598E1279B842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usmp.Fia.NetCoreWebAplication.AppBitacoras", "..\Usmp.Fia.NetCoreWebAplication.AppBitacoras\Usmp.Fia.NetCoreWebAplication.AppBitacoras.csproj", "{34017E82-3A04-43E4-9A32-239B1F9FD2E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{024F2D92-4946-439A-99DD-598E1279B842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024F2D92-4946-439A-99DD-598E1279B842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024F2D92-4946-439A-99DD-598E1279B842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34017E82-3A04-43E4-9A32-239B1F9FD2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34017E82-3A04-43E4-9A32-239B1F9FD2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34017E82-3A04-43E4-9A32-239B1F9FD2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34017E82-3A04-43E4-9A32-239B1F9FD2E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

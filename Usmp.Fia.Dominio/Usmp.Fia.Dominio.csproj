@@ -51,6 +51,7 @@
     <Compile Include="Modelos\IntegrantesPorGrupoModel.cs" />
     <Compile Include="Modelos\Reply.cs" />
     <Compile Include="Modelos\SemestresModel.cs" />
+    <Compile Include="Modelos\UsuarioLogin.cs" />
     <Compile Include="ObjetosValor\EntityStates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

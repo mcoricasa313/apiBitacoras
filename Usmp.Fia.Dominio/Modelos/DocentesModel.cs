@@ -31,7 +31,7 @@ namespace Usmp.Fia.Dominio.Modelos
         public string usuario { get; set; }
         [Required]
         public string clave { get; set; }
-        public Nullable<int> token { get; set; }
+        public string token { get; set; }
 
         public EntityStates states;
         public IRepositorioDocentes repositorioDataModel;

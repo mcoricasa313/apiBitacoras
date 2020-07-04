@@ -91,6 +91,10 @@ namespace Usmp.Fia.Dominio.Modelos
 
         }
 
+    
+
+
+
         public SemestresModel getID(int id)
         {
             var tabla = repositorioDataModel.getall().Where(c => c.idsemestre == id);

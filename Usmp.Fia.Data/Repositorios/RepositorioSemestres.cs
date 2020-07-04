@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -74,6 +75,22 @@ namespace Usmp.Fia.Data.Repositorios
                 using (var db = new BitacorasContexto())
                 {
                     return db.Semestres.ToList();
+                }
+            }
+            catch (Exception e)
+            {
+                log.Error(DateTime.Now + " " + e);
+                return null;
+            }
+        }
+
+        public Task<List<Semestres>> getallAsync() 
+        {
+            try
+            {
+                using (var db = new BitacorasContexto())
+                {
+                    return db.Semestres.ToListAsync();
                 }
             }
             catch (Exception e)

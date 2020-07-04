@@ -1,10 +1,17 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web.Helpers;
 using System.Web.Http;
+using System.Web.Http.Description;
+using System.Web.Http.Results;
+using System.Web.Mvc;
 using Usmp.Fia.Dominio.Modelos;
+using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 
 namespace Usmp.Fia.WebApiBitacorasV2.Controllers
 {
@@ -33,18 +40,24 @@ namespace Usmp.Fia.WebApiBitacorasV2.Controllers
 
         // POST: api/SemestresApi
         [HttpPost]
-        public IHttpActionResult Post([FromBody] SemestresModel model)
+        public SemestresModel Post([FromBody] SemestresModel model)
         {
-            if (ModelState.IsValid)
-            {
-                model.states = Dominio.ObjetosValor.EntityStates.Add;
-                model.SaveChanges();
-                return Ok(model);
-            }
-            else
-            {
-                return BadRequest();
-            }
+            model = new SemestresModel();
+            //if (ModelState.IsValid)
+            //{
+            //    model.states = Dominio.ObjetosValor.EntityStates.Add;
+            //    model.SaveChanges();
+            //    return Ok(model).ToString();
+            //}
+            //else
+            //{
+            //    return BadRequest().ToString();
+            //}
+            //return Ok("funciona "+model);
+
+
+            //return Json<SemestresModel>(model);
+            return model;
         }
 
         // PUT: api/SemestresApi/5

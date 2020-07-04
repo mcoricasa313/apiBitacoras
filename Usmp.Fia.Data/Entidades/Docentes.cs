@@ -29,7 +29,7 @@ namespace Usmp.Fia.Data.Entidades
         public string user_crea { get; set; }
         [Required]
         public string user_modif { get; set; }
-        public Nullable<int> token { get; set; }
+        public string token { get; set; }
 
     }
 }
