@@ -5,6 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200706022459_primera.cs" />
+    <Compile Remove="Migrations\20200706022459_primera.Designer.cs" />
+    <Compile Remove="Migrations\20200706022922_segunda.cs" />
+    <Compile Remove="Migrations\20200706022922_segunda.Designer.cs" />
+    <Compile Remove="Migrations\20200706024325_modificandode inergarntes por grupos.cs" />
+    <Compile Remove="Migrations\20200706024325_modificandode inergarntes por grupos.Designer.cs" />
+    <Compile Remove="Migrations\20200706025303_cuartamigracion.cs" />
+    <Compile Remove="Migrations\20200706025303_cuartamigracion.Designer.cs" />
+    <Compile Remove="Migrations\20200706025406_primera.cs" />
+    <Compile Remove="Migrations\20200706025406_primera.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />

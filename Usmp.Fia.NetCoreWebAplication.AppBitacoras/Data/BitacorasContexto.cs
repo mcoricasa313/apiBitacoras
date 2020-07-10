@@ -26,10 +26,10 @@ namespace Usmp.Fia.NetCoreWebAplication.AppBitacoras.Data
         public DbSet<IntegrantesPorGrupo> IntegrantesPorGrupo { get; set; }
         public DbSet<Semestres> Semestres { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<IntegrantesPorGrupo>()
-                .HasKey(c => new { c.idestudiante, c.idgrupo });
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<IntegrantesPorGrupo>()
+        //        .HasKey(c => new { c.idestudiante, c.idgrupo });
+        //}
     }
 }

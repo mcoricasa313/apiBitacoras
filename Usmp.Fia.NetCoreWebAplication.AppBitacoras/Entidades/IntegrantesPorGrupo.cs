@@ -12,9 +12,11 @@ namespace Usmp.Fia.NetCoreWebAplication.AppBitacoras.Entidades
     [Table("IntegrantesPorGrupos")]
     public class IntegrantesPorGrupo
     {
-        [Key, Column(Order = 0)]
+        [Key]
+        public int IdIntegrantesPorGrupos { get; set; }
+        [Required]
         public int idestudiante { get; set; }
-        [Key, Column(Order = 1)]
+        [Required]
         public int idgrupo { get; set; }
         [Required]
         public DateTime fecha_creacion { get; set; }
